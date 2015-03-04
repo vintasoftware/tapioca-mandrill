@@ -21,7 +21,7 @@ except (IOError, ImportError):
 
 package = 'tapioca_mandrill'
 requirements = [
-    'tapioca-wrapper'
+    'tapioca-wrapper==0.2.0'
 ]
 test_requirements = [
 

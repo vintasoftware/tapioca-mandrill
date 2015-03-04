@@ -1,12 +1,13 @@
 # coding: utf-8
 
-from tapioca import (TapiocaClient, TapiocaAdapter)
+from tapioca import (
+    TapiocaAdapter, generate_wrapper_from_adapter)
 
 from resource_mapping import RESOURCE_MAPPING
 
 
 class MandrillClientAdapter(TapiocaAdapter):
-    api_root = 'https://mandrillapp.com/api/1.0/'
+    api_root = 'https://mandrillapp.com/api/1.0'
     resource_mapping = RESOURCE_MAPPING
 
     def get_request_kwargs(self, api_params):
@@ -23,4 +24,4 @@ class MandrillClientAdapter(TapiocaAdapter):
         return
 
 
-Mandrill = TapiocaClient(MandrillClientAdapter())
+Mandrill = generate_wrapper_from_adapter(MandrillClientAdapter)
