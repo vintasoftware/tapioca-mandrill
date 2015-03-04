@@ -7,7 +7,7 @@ from resource_mapping import RESOURCE_MAPPING
 
 
 class MandrillClientAdapter(TapiocaAdapter):
-    api_root = 'https://mandrillapp.com/api/1.0'
+    api_root = 'https://mandrillapp.com/api/1.0/'
     resource_mapping = RESOURCE_MAPPING
 
     def get_request_kwargs(self, api_params):
