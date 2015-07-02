@@ -1,9 +1,5 @@
 # Tapioca Mandrill
 
-## What's Tapioca?
-
-[https://github.com/vintasoftware/tapioca-wrapper](https://github.com/vintasoftware/tapioca-wrapper)
-
 ## Instalation
 
 pip install tapioca-mandrill
@@ -20,6 +16,6 @@ api = Mandrill(key='{your-api-key}')
 
 No more documentation needed.
 
-- Learn how Tapioca works [here](https://github.com/vintasoftware/tapioca-wrapper)
+- Learn how Tapioca works [here](http://tapioca-wrapper.readthedocs.org/en/latest/quickstart/)
 - Explore this package using iPython
 - Have fun!
