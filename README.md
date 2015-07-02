@@ -2,7 +2,9 @@
 
 ## Instalation
 
+```
 pip install tapioca-mandrill
+```
 
 ## Documentation
 
