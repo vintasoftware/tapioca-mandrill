@@ -6,8 +6,6 @@ pip install tapioca-mandrill
 
 ## Documentation
 
-### Initializing
-
 ``` python
 from tapioca_mandrill import Mandrill
 
